@@ -1,0 +1,117 @@
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+#titulo{
+    text-align: center;
+    font-family: unset ;
+    animation-name: blink;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate-reverse;    
+}
+
+footer{
+    background-color: rgb(74, 206, 188);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+@keyframes blink{
+    0%{
+        color: rgb(8, 153, 153);
+    }
+
+    10%{
+        color: rgba(255, 255, 0, 0.938);
+    }    
+
+    20%{
+        color: rgba(202, 5, 5, 0.658);
+    }
+
+     30%{
+         color: rgb(238, 65, 166);
+     }
+
+     40%{
+         color: rgb(236, 109, 236);
+     }
+
+     50%{
+         color: rgb(250, 128, 114);
+     }
+
+     60%{
+         color: rgb(43, 135, 226);
+     }
+
+     70%{
+         color: rgb(80, 255, 238);
+     }
+    
+     80%{
+         color: rgb(182, 248, 51);
+    }
+
+    90%{
+        color: rgba(12, 219, 185, 0.616);
+    }
+
+    100%{
+     
+        color: black;
+        transform: scale(1.9);
+    }
+}
+
+nav ul{
+
+    background-color: rgba(19, 148, 148, 0.87);
+    padding: 10px;
+    list-style-type: none;
+    color: whitesmoke;
+    
+}
+
+
+img{
+    width: 350px;
+    height: 170px;
+    float: left;
+    border: black solid;
+    cursor: pointer;
+}
+
+.p1{
+    display: flex;
+    text-align: justify;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+footer{
+    color: whitesmoke;
+}
+
+body{
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: #e4f2f7;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-family: unset;
+}
+
+iframe{
+    align-items: center;
+}
+
